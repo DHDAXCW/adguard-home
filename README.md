@@ -46,33 +46,33 @@
 
 - 阿里	IPv4 DNS	223.5.5.5
 - IPv6 DNS	2400:3200:baba::1
-- DNS-over-Https	https://dns.alidns.com/dns-query
-- DNSPod	IPv4 DNS	119.29.29.29
-- DNS-over-Https	https://doh.pub/dns-query
-- 114	IPv4 DNS	114.114.114.114
-- Google	IPv4 DNS	8.8.8.8
-- IPv6 DNS	2001:4860:4860::8888
-- DNS-over-Https	https://dns.google/dns-query
-- Cloudflare	IPv4 DNS	1.1.1.1
-- IPv6 DNS	2606:4700:4700::1111
-- DNS-over-Https	https://dns.cloudflare.com/dns-query
+- DNS-over-Https	``` https://dns.alidns.com/dns-query ```
+- DNSPod	IPv4 DNS	```119.29.29.29```
+- DNS-over-Https	```https://doh.pub/dns-query```
+- 114	IPv4 DNS	```114.114.114.114```
+- Google	IPv4 DNS	```8.8.8.8```
+- IPv6 DNS	```2001:4860:4860::8888```
+- DNS-over-Https	```https://dns.google/dns-query```
+- Cloudflare	IPv4 DNS	```1.1.1.1```
+- IPv6 DNS	```2606:4700:4700::1111```
+- DNS-over-Https	```https://dns.cloudflare.com/dns-query```
 
 ### DNS 封锁清单
 为了更好地发挥 AdGuard Home 去广告的功能，仅依靠默认的过滤规则是不够的，但也不宜过多，过多的过滤规则会影响解析的速度，各位可以根据需要添加过滤规则。
 ![image](https://user-images.githubusercontent.com/74764072/165744929-35204abf-d8ec-4579-8119-154c28a7c952.png)
 
 - 名称	简介	地址
-- AdGuard DNS Filter	AdGuard 官方维护的广告规则，涵盖多种过滤规则	https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
-- EasyList	Adblock Plus 官方维护的广告规则	https://easylist-downloads.adblockplus.org/easylist.txt
-- EasyList China	面向中文用户的 EasyList 去广告规则	https://easylist-downloads.adblockplus.org/easylistchina.txt
-- EasyPrivacy	反隐私跟踪、挖矿规则	https://easylist-downloads.adblockplus.org/easyprivacy.txt
-- Halflife 规则	涵盖了 EasyList China、EasyList Lite、CJX ’s Annoyance、乘风视频过滤规则，以及补充的其它规则	https://gitee.com/halflife/list/raw/master/ad.txt
-- Xinggsf 乘风过滤	国内网站广告过滤规则	https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt
-- Xinggsf 乘风视频过滤	视频网站广告过滤规则	https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt
-- MalwareDomainList	恶意软件过滤规则	https://www.malwaredomainlist.com/hostslist/hosts.txt
-- Adblock Warning Removal List	去除禁止广告拦截提示规则	https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-- Anti-AD	命中率高、兼容性强	https://anti-ad.net/easylist.txt
-- Fanboy’s Annoyances List	去除页面弹窗广告规则	https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
+- AdGuard DNS Filter	AdGuard 官方维护的广告规则，涵盖多种过滤规则	```https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt```
+- EasyList	Adblock Plus 官方维护的广告规则	```https://easylist-downloads.adblockplus.org/easylist.txt```
+- EasyList China	面向中文用户的 EasyList 去广告规则	```https://easylist-downloads.adblockplus.org/easylistchina.txt```
+- EasyPrivacy	反隐私跟踪、挖矿规则	```https://easylist-downloads.adblockplus.org/easyprivacy.txt```
+- Halflife 规则	涵盖了 EasyList China、EasyList Lite、CJX ’s Annoyance、乘风视频过滤规则，以及补充的其它规则	```https://gitee.com/halflife/list/raw/master/ad.txt```
+- Xinggsf 乘风过滤	国内网站广告过滤规则	```https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt```
+- Xinggsf 乘风视频过滤	视频网站广告过滤规则	```https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt```
+- MalwareDomainList	恶意软件过滤规则	```https://www.malwaredomainlist.com/hostslist/hosts.txt```
+- Adblock Warning Removal List	去除禁止广告拦截提示规则	```https://easylist-downloads.adblockplus.org/antiadblockfilters.txt```
+- Anti-AD	命中率高、兼容性强	```https://anti-ad.net/easylist.txt```
+- Fanboy’s Annoyances List	去除页面弹窗广告规则	```https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt```
 
 - 以浏览国内网站为主的用户可以使用 anti-AD + Halflife 过滤规则，如有浏览国外网站的需要，可以根据需要添加 AdGuard DNS Filter、Fanboy's Annoyances List 等规则。不同规则之间会存在重叠的情况，可以通过 AdGuard Home 的拦截日志分析哪些规则的使用频率最高，哪些规则拦截频率最低，再加以取舍。
 
