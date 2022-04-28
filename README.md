@@ -44,8 +44,8 @@
 ### DNS 服务器推荐
 - 不同地区连接至 DNS 服务器的速度各有差异，各位可以通过 Ping 测速的方式寻找当地连接延迟最低的 DNS 服务器。更多 DNS 服务器可以在 AdGuard 文档中找到。
 
-- 阿里	IPv4 DNS	223.5.5.5
-- IPv6 DNS	2400:3200:baba::1
+- 阿里	IPv4 DNS	```223.5.5.5```
+- IPv6 DNS	```2400:3200:baba::1```
 - DNS-over-Https	``` https://dns.alidns.com/dns-query ```
 - DNSPod	IPv4 DNS	```119.29.29.29```
 - DNS-over-Https	```https://doh.pub/dns-query```
