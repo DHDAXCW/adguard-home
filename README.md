@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/74764072/165743827-32c902af-535c-4bef-a7a6-24b6a99df837.png)
 
-- 将后台的访问端口更改为 3000，避免与 NAS 后台的 80 端口发生冲突，DNS 端口保持为 53 即可。
+- 将后台的访问端口更改为 3000，避免与 NAS 后台的 80 端口发生冲突，DNS 端口保持为 6855 即可， 如果是53的话 可能会有提示被占用。
 
 ![image](https://user-images.githubusercontent.com/74764072/165743929-5c6906bd-c553-45ac-8cf9-c08bea7fcc0a.png)
 
@@ -85,11 +85,9 @@
 
 - shadowsocksr
 
-![image](https://user-images.githubusercontent.com/74764072/165745679-8e1d0892-e549-4e3c-9d14-e98db4f06f21.png)
 
 - helloword
 
-![image](https://user-images.githubusercontent.com/74764072/165745848-0ca0e275-59a3-442d-9a6b-e21c62b95c8d.png)
 
 ### 更改路由器 DNS 地址
 不同品牌路由器修改的方法各有差异，具体步骤可参照说明书或网上的教程（路由器型号 + 更改 DNS）
