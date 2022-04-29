@@ -41,6 +41,8 @@
 - BootStrap DNS 服务器地址：作为 DoH / DoT DNS 的前置 DNS 解析器，可参考下方推荐列表
 - 查询方式、速度限制、EDNS、DNSSEC、拦截模式、DNS 缓存设置、访问设置可根据需要进行调整，一般保持默认设置即可
 
+![image](https://user-images.githubusercontent.com/74764072/165878997-4f612814-68d5-4800-a1bc-f5968eb59ed0.png)
+- 忽略解析文件 这个就是本机缓存 但是我们使用了ADG的 ADG会帮我们缓存
 ### DNS 服务器推荐
 - 不同地区连接至 DNS 服务器的速度各有差异，各位可以通过 Ping 测速的方式寻找当地连接延迟最低的 DNS 服务器。更多 DNS 服务器可以在 AdGuard 文档中找到。
 
@@ -81,13 +83,15 @@
 
 - passwall
 
-![image](https://user-images.githubusercontent.com/74764072/165745367-3fb1b0bb-901d-425b-99ba-a2624cb451f8.png)
+![image](https://user-images.githubusercontent.com/74764072/165879116-07f24f2d-55f8-4565-8bce-7e3b80f70c26.png)
 
 - shadowsocksr
 
+![image](https://user-images.githubusercontent.com/74764072/165879433-73810d04-bd3e-40f9-b87c-bf6c41ff6a63.png)
+
 
 - helloword
-
+和上面一样
 
 ### 更改路由器 DNS 地址
 不同品牌路由器修改的方法各有差异，具体步骤可参照说明书或网上的教程（路由器型号 + 更改 DNS）
