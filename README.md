@@ -6,21 +6,7 @@
 - AdGuard Home 后台
 - 在浏览器中打开 AdGuard Home 的后台，进入安装向导，点击 “开始配置”。默认后台地址为：​http://IP:3000/​
 
-![image](https://user-images.githubusercontent.com/74764072/165743827-32c902af-535c-4bef-a7a6-24b6a99df837.png)
-
-- 将后台的访问端口更改为 3000，避免与 NAS 后台的 80 端口发生冲突，DNS 端口保持为 6855 即可， 如果是53的话 可能会有提示被占用。
-
-![image](https://user-images.githubusercontent.com/74764072/165743929-5c6906bd-c553-45ac-8cf9-c08bea7fcc0a.png)
-
-### 设置账号和密码
-
-![image](https://user-images.githubusercontent.com/74764072/165743999-d271a762-c802-4f32-a73b-9e33ac82bf4d.png)
-
-### 完成初始化设置
-
-![image](https://user-images.githubusercontent.com/74764072/165744097-3bb205cb-ef58-401b-8ebb-6e780f8dd711.png)
-
-![image](https://user-images.githubusercontent.com/74764072/165744154-e223407e-1316-45af-b5ae-b39248971c2a.png)
+- 将后台的访问端口更改为 3000，避免与 NAS 后台的 80 端口发生冲突，DNS 端口改为 6855 即可
 
 ### 常规设置
 
