@@ -31,19 +31,26 @@
 - 忽略解析文件 这个就是本机缓存 但是我们使用了ADG的 ADG会帮我们缓存
 ### DNS 服务器推荐
 - 不同地区连接至 DNS 服务器的速度各有差异，各位可以通过 Ping 测速的方式寻找当地连接延迟最低的 DNS 服务器。更多 DNS 服务器可以在 AdGuard 文档中找到。
-
-- 阿里	IPv4 DNS	```223.5.5.5```
-- IPv6 DNS	```2400:3200:baba::1```
-- DNS-over-Https	``` https://dns.alidns.com/dns-query ```
-- DNSPod	IPv4 DNS	```119.29.29.29```
-- DNS-over-Https	```https://doh.pub/dns-query```
-- 114	IPv4 DNS	```114.114.114.114```
-- Google	IPv4 DNS	```8.8.8.8```
-- IPv6 DNS	```2001:4860:4860::8888```
-- DNS-over-Https	```https://dns.google/dns-query```
-- Cloudflare	IPv4 DNS	```1.1.1.1```
-- IPv6 DNS	```2606:4700:4700::1111```
-- DNS-over-Https	```https://dns.cloudflare.com/dns-query```
+```
+114.114.114.114
+114.114.115.115
+223.5.5.5
+223.6.6.6
+119.29.29.29
+180.76.76.76
+101.226.4.6
+123.125.81.6
+101.226.4.6
+101.226.4.6
+https://dns.google/dns-query
+https://dns.quad9.net/dns-query
+https://doh.opendns.com/dns-query
+https://1.1.1.1/dns-query
+tls://dns.rubyfish.cn
+tls://8.8.8.8
+tls://8.8.4.4
+tls://dns.google:853
+```
 
 ### DNS 封锁清单
 为了更好地发挥 AdGuard Home 去广告的功能，仅依靠默认的过滤规则是不够的，但也不宜过多，过多的过滤规则会影响解析的速度，各位可以根据需要添加过滤规则。
