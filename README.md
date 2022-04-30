@@ -20,8 +20,7 @@
 - 统计数据保留时间：用于仪表盘的数据展示，一般保留 24 小时 - 7 天即可
 
 ### DNS 设置
-
-![image](https://user-images.githubusercontent.com/74764072/165744440-7511089d-99a7-4387-a696-0eafd992707d.png)
+![image](https://user-images.githubusercontent.com/74764072/166087072-615f7edb-877d-4b53-9a07-55cf756c8b5f.png)
 
 - 上游 DNS 服务器：AdGuard Home 的上游 DNS 服务器，可参考下方推荐列表，一般保留 1 - 2 个即可。AdGuard Home 除了可以作为广告过滤网关，如果设置了纯净 DNS 后，还可以避免运营商的 DNS 劫持
 - BootStrap DNS 服务器地址：作为 DoH / DoT DNS 的前置 DNS 解析器，可参考下方推荐列表
