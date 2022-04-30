@@ -51,7 +51,18 @@ tls://8.8.8.8
 tls://8.8.4.4
 tls://dns.google:853
 ```
-
+### Bootstrap DNS服务
+```
+当地电信DNS
+当地移动DNS
+当地联通DNS
+119.29.29.29
+223.5.5.5
+180.76.76.76
+8.8.8.8
+8.8.4.4
+208.67.222.222
+```
 ### DNS 封锁清单
 为了更好地发挥 AdGuard Home 去广告的功能，仅依靠默认的过滤规则是不够的，但也不宜过多，过多的过滤规则会影响解析的速度，各位可以根据需要添加过滤规则。
 ![image](https://user-images.githubusercontent.com/74764072/165744929-35204abf-d8ec-4579-8119-154c28a7c952.png)
@@ -68,6 +79,12 @@ tls://dns.google:853
 - Adblock Warning Removal List	去除禁止广告拦截提示规则	```https://easylist-downloads.adblockplus.org/antiadblockfilters.txt```
 - Anti-AD	命中率高、兼容性强	```https://anti-ad.net/easylist.txt```
 - Fanboy’s Annoyances List	去除页面弹窗广告规则	```https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt```
+
+- 我自用 
+```
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+http://sub.adtchrome.com/adt-chinalist-easylist.txt
+```
 
 - 以浏览国内网站为主的用户可以使用 anti-AD + Halflife 过滤规则，如有浏览国外网站的需要，可以根据需要添加 AdGuard DNS Filter、Fanboy's Annoyances List 等规则。不同规则之间会存在重叠的情况，可以通过 AdGuard Home 的拦截日志分析哪些规则的使用频率最高，哪些规则拦截频率最低，再加以取舍。
 
